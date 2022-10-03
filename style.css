@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#game{
+    position: relative;
+    width: 640px;
+    height: 400px;
+}
+canvas {
+    display: block;
+;
+}
+#game-over, #start {
+    display: none;
+    text-align: center;
+    z-index: 1;
+    overflow: auto;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    font-size: 1.6rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    transform: translateX(-20%);
+    background: indianred;
+    color: white;
+
+}
+
+#game-over button{
+  font-size: 1.2rem;
+    border: none;
+    background: lightyellow;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    margin: 1rem;
+    color: black;
+
+}
+
+#background{
+   display: none;
+
+}
+
